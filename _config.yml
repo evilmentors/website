@@ -1,1 +1,6 @@
 pygments: true
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - Procfile
