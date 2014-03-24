@@ -1,0 +1,13 @@
+---
+layout: default
+title: EvilMentors
+---
+
+<div id="evil">
+{% for post in site.posts %}
+  <div class="post">
+    {{ post.content }}
+  </div>
+  <p class="meta">{{ post.date | date_to_string }}</p>
+{% endfor %}
+</div>
